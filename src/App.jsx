@@ -115,14 +115,14 @@ function App() {
       {userSelection.country && userSelection.state && userSelection.city && (
         <div style={{ marginLeft: "5rem", marginTop: "3rem" }}>
           You selected{" "}
-          <span style={{ fontWeight: "bold", fontSize: "3rem" }}>
-            {userSelection.country}, &nbsp;
+          <span style={{ fontWeight: "medium", fontSize: "1.5rem" }}>
+            {userSelection.city}, &nbsp;
           </span>
           <span style={{ fontWeight: "medium", fontSize: "1.5rem" }}>
             {userSelection.state}, &nbsp;
           </span>
-          <span style={{ fontWeight: "medium", fontSize: "1.5rem" }}>
-            {userSelection.city}
+          <span style={{ fontWeight: "bold", fontSize: "3rem" }}>
+            {userSelection.country}
           </span>
         </div>
       )}
